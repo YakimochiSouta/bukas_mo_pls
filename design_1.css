@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Shadows+Into+Light&display=swap');
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+body{
+    background-color: #8AAAE5;
+    margin: 0;
+    padding: 0;
+
+}
+.confession_start>section {
+
+    height: 100vh; 
+    scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:space-between ;
+}
+
+
+
+.confession_start {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.confession_start>.section_1 > h1 {
+
+    font-size: 150px;
+    color: #FFFFFF;
+    font-family: "Noto Sans JP", sans-serif;
+    padding-top: 100px;
+}
+
+.confession_start .section_1 > img {
+    height: 200px;
+    width: 200px;
+    padding-bottom: auto;
+}
+
+.confession_start>.section_2 > h1 {
+    
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family: "Noto Sans JP", sans-serif;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.confession_start>.section_3 > h1 {
+    
+    font-size: 120px;
+    color: #FFFFFF;
+    font-family: "Noto Sans JP", sans-serif;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.confession_start>.section_4 > h1 {
+    
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family: "Noto Sans JP", sans-serif;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.confession_start>.section_5 > h1 {
+    
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family: "Noto Sans JP", sans-serif;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.confession_start>.section_6 > h1 {
+    
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family: "Noto Sans JP", sans-serif;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.confession_start>.section_7 > h1 {
+    
+    font-size: 100px;
+    color: #FFFFFF;
+    font-family: "Noto Sans JP", sans-serif;
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.confession_start>.section_8 > h1 {
+    
+    font-size: 80px;
+    color: #FFFFFF;
+    font-family: "Noto Sans JP", sans-serif;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container {
+    height: 100vh;
+    margin: 0 auto;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 200px;
+  }
+  
+  .btn {
+    padding: 1.5rem 2.5rem;
+    border: none;
+    border-radius: 10px;
+  
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .btn--yes {
+    background-color: #40c057;
+  }
+  
+  .btn--no {
+    background-color: #f03e3e;
+  }
+  
+.hidden {
+    display: none;
+}
